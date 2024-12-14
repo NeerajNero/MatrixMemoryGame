@@ -20,6 +20,8 @@ function App() {
   const shuffleCards = () => {
     const shuffleCards = [...imageData, ...imageData].sort(() => Math.random() - 0.5).map((card) => ({...card, id: Math.random()}))
     setCards(shuffleCards)
+    setScore(0)
+    setTurns(0)
   }
   useEffect(() => {
     shuffleCards()

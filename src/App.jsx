@@ -62,7 +62,7 @@ function App() {
   console.log(score)
   return (
     <>
-    <h2 className='text-center'>Matrix Memory Game</h2>
+    <h2 className='text-center'>--Matrix Memory Game--</h2>
     <div className='container text-center d-flex justify-content-between my-3'>
         <p>Score: {score}</p>
         <button onClick={shuffleCards}>New Game</button>
